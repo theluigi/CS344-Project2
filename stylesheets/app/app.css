@@ -31,7 +31,11 @@ h1 {
 .search1 {
 	margin: 50px auto auto auto;
 	float: left;
-	width: 50%;
+	width: 48%;
+	background-color: #000000; 
+	border:0px solid;
+	border-radius:25px;
+	-moz-border-radius:25px; /* for firefox */
 	
 
 }
@@ -39,6 +43,9 @@ h1 {
 .search2 {
 	margin: 50px auto auto auto; 
 	float: right;
-	width: 50%;
-	
+	width: 48%;
+	background-color: #000000; 
+	border:0px solid;
+	border-radius:25px;
+	-moz-border-radius:25px; /* for firefox */
 } 

@@ -8,6 +8,9 @@ var main = function() {
 		track1 = $("#term1").val();
 		track2 = $("#term2").val();
 		$("#searchForm").hide(); 
+		$(".search1").append("<h2> Term 1: " + track1 + "</h2>");
+		$(".search2").append("<h2> Term 2: " + track2 + "</h2>");
+		
 		twit.stream("statuses/filter", { lang:'en', track:track1}, function(stream) {
 			stream.on("data", function(tweet) {
 				//loads tweets
