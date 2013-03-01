@@ -5,6 +5,8 @@ var main = function() {
 	var average = 0; 
 	var twit = new ctwitter.CTwitter();
 	
+	$("#fittext").fitText();
+	
 		$("#termsButton").click(function() {
 		track1 = $("#term1").val();
 		$("#searchForm").hide(); 
