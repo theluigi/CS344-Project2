@@ -21,6 +21,7 @@ h1 {
 	font-size: 1.4em;
 	background-color: #000000; 
 	border:2px solid;
+	border-color: #FFFFFF; 
 	border-radius:25px;
 	-moz-border-radius:25px; /* for firefox */
 	width: 900px; 
