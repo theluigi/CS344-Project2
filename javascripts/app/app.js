@@ -5,7 +5,7 @@ var main = function() {
 	var average = 0; 
 	var twit = new ctwitter.CTwitter();
 	
-	$("#fittext").fitText();
+	$("#fittext").fitText(1.7, {minFontSize: '20px', maxFontSize: '50px'});
 	
 		$("#termsButton").click(function() {
 		track1 = $("#term1").val();
